@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+char str1[15]="hello";
+char str2[20]="world";
+
+strcat(str1,str2);
+printf("the concate string is %s",str1);
+return 0;
+  }
